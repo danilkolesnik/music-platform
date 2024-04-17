@@ -1,0 +1,24 @@
+
+.bannerContainer {
+  width: 100%;
+  background-color: red;
+  height: 220px;
+}
+
+.bannerImageWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.avatarImageWrapper {
+  position: absolute;
+  height: 195px;
+  width: 195px;
+  background-color: red;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4%;
+  border-radius: 50%;
+  overflow: hidden;
+}

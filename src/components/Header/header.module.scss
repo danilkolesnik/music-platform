@@ -1,0 +1,43 @@
+.headerContainer {
+  padding: 0% 8%;
+  background-color: #0b0b0b;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  cursor: pointer;
+}
+
+.headerMenu {
+
+  ul {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
+  &_icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+
+  &_wrapper {
+    display: flex;
+    gap: 5px;
+  }
+}
